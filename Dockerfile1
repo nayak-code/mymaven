@@ -1,0 +1,4 @@
+FROM alpine:3.7
+MAINTAINER intelliqit
+WORKDIR /usr/apps/hello-docker/
+ADD . /usr/apps/hello-docker/
